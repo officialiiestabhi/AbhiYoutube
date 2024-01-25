@@ -11,7 +11,7 @@ import Maincontainer from "./Components/Maincontainer";
 function App() {
   return (
     <Provider store={store}>
-    <div>
+    <div className="text-white bg-black ">
      <Navbar/>
      <RouterProvider router={AppRouter}/>
     </div>

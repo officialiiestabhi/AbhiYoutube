@@ -30,15 +30,16 @@ const Navbar = () => {
    }
   return (
    
-    <div className='grid grid-flow-col shadow-lg p-2 m-2'>
+    <div className='grid grid-flow-col shadow-lg p-2 '>
        <div className='flex col-span-1 gap-1'>
-        <img  src='https://www.svgrepo.com/show/312300/hamburger-menu.svg'
+        <img   
+        src='https://www.svgrepo.com/show/312300/hamburger-menu.svg'
         alt="hamburger"
         onClick={toggleMenuHandler}
-        className="h-8 cursor-pointer"/>
+        className="h-8 cursor-pointe"/>
         <a href="/">
         <img src='https://cdn.worldvectorlogo.com/logos/youtube-6.svg' alt='yticon'
-        className="h-8 ml-1 cursor-pointer" /></a>
+        className="h-8 ml-1 cursor-pointer bg-black" /></a>
 
        </div>
 

@@ -1,4 +1,4 @@
-[[redirects]]
-from="/*"
-to="/index.html
-status=200
+
+ publish = "build"
+  command = "echo 'default context'"
+  functions = "functions"
