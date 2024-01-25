@@ -1,4 +1,4 @@
-
- publish = "build"
-  command = "echo 'default context'"
-  functions = "functions"
+[[redirects]]
+from="/*"
+to="/index.html
+status=200
